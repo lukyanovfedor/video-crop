@@ -1,0 +1,13 @@
+language: ruby
+rvm:
+  - 2.2.3
+services:
+  - mongodb
+before_install:
+  - sudo apt-get update
+  - sudo apt-get install ffmpeg
+script:
+  - RAILS_ENV=test bundle exec rspec
+addons:
+  code_climate:
+    repo_token: 4f466898d3e88caa3f8cf208a3467e875c8fadd3e2dfdae85a47d1429abfc903
