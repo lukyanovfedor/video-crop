@@ -10,4 +10,4 @@ script:
   - RAILS_ENV=test bundle exec rspec
 addons:
   code_climate:
-    repo_token: 4f466898d3e88caa3f8cf208a3467e875c8fadd3e2dfdae85a47d1429abfc903
+    repo_token: 43b1e78634f2c45a48d04acd57c03e406f9fa18156229b0793f06e41dc759216
